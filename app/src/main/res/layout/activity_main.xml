@@ -10,12 +10,18 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#ffffff"
         android:text="집에 가고싶다" />
 
-    <TextView
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="집에 가고싶다" />
+        android:hint="아이디를 입력하세요" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼" />
 
 </LinearLayout>
